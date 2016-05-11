@@ -1,0 +1,230 @@
+/* Responsive Design */
+
+@media (max-width: 1170px) {
+	#main #sharebox{
+		float:none;
+		margin-left:0;
+		width:100%;
+	}
+	
+	.sharebox_item{
+		display:inline-block;
+		margin:0 20px;
+		vertical-align:top;
+	}
+	
+	#sharebox{
+		display:none;
+	}
+	
+}
+
+@media (max-width: 951px) {
+	
+	.flex_outer_width{
+		width:93%;
+	}
+	
+	.flex_mobile_show{
+		display:block;
+	}
+	
+	#main #sharebox{
+		float:right;
+		margin-left:20px;
+		width:auto;
+	}
+	
+	.sharebox_item{
+		display:block;
+		margin:0 20px;
+		vertical-align:middle;
+	}
+	
+	#sharebox{
+		display:block;
+	}
+	
+	.content_wrapper{
+		width:100%;
+		float:none;
+	}
+	
+	.post .entry {
+		width:100%;
+		float:none;
+	}
+	
+	.sidebar_wrapper{
+		margin-left:0;
+		margin-top:15px;
+		float:none;
+		width:100%;
+	}
+	
+	.navigation{
+		background: #f5f5f5;
+		padding: 5px 20px;
+	}
+	
+	.sidebar_widget_wrapper{
+		text-align:center;
+	}
+	
+	.header_logo_wrapper {
+		text-align: center;
+		position: static;
+	}
+	
+	.header_actions_wrapper {
+		height: auto;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	
+	.header_actions_item {
+		margin-top: 14px;
+		float: none;
+		display: inline-block;
+		margin-right: 15px;
+	}
+	
+	.header_actions_item:hover{
+		margin-right:15px
+	}
+	
+	.header_logo_wrapper{
+		text-align:center;position:static
+	}
+	
+	.header_menu_wrapper{
+		margin-top:0
+	}
+	
+	.header_menu_item_home{
+		margin-left:0
+	}
+	
+	.header_menu_username{
+		float:left;
+		margin-top:1px;
+		margin-left:5px;
+		white-space:nowrap
+	}
+	
+	.header_menu_username_icon{
+		width:12px;
+		height:17px;
+		display:inline-block;
+		margin-right:3px;
+		margin-bottom:-1px;
+		background-repeat:no-repeat;
+		background-position:0 1px;
+		background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAARCAYAAADpPU2iAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPtJREFUeNpi3L9/PwMSYAbiIiCOAWJ+ID4GxLVAfBemgIUBFXRBNcCAPBAbALEjEL8ECTChSaYxYAJNII6AcZA1SAExDwN2oIBNw2Mg/oRDw1VsGp4AcTsWxUeBeBk2T7MBcTcQ3wDidKjz9gFxJ7LBLEg2LQJiISAuAeIAqBgvEFcCcQgQ+wPxLZiGaCAOh7LPAfEDIP4OxLLQ+GCA2u4P0sABxKVokaeMxS8+QGwDstYaiHUZCAOQ2kgQ4cJAPHAAaTAiQYM8SIMoCRq4QRrkSNAA9kg7NLIIgbdAvJgRmh+4gdgO5CkgVgdiQWjMf4CmMVC+2AtiAwQYAAouJtfmNtjRAAAAAElFTkSuQmCC)
+	}
+	
+	.login_panel form{width:100%;float:none}
+	.login_panel_item{width:40%}
+	.login_panel_item_button{width:20%}
+	.login_panel_button_submit,.login_panel_username,.login_panel_password{width:100%}
+	.login_panel{padding-left:30px;padding-right:30px}
+	
+	.cat-item{
+		float: left;
+		width: 50%;
+	}
+	
+	.sidebar_widget_tools{
+		float:left;
+		width:50%;
+		padding-right:5px;
+	}
+	
+	.sidebar_widget_social{
+		float:left;
+		width:50%;
+		padding-left:5px;
+	}
+	
+	.content_post_extralinks_item{
+		text-align:center; 
+	}
+	
+	.content_share_item{
+		float:none;
+	}
+}
+
+@media (max-width: 600px) {
+	
+	.entry img{
+		margin: 0 auto;
+		display: block;
+		float: none;	
+		margin-bottom: 13px;
+	}
+	
+	.entry .wp-caption{
+		float: none;
+		margin: 0 auto;
+	}
+	
+	.entry .wp-caption-text{
+		text-align:center;
+		margin-bottom:20px;
+	}
+
+	.header_logo_wrapper {
+		padding-top: 0;
+		margin-top: 15px;
+	}
+	
+	.header_mobile_slim .header_actions_wrapper{
+		display:none
+	}
+	
+	.login_panel_menu_wrapper {
+		text-align: center;
+	}
+	
+	.login_panel_menu {
+		position: relative;
+		top: auto;
+		left: auto;
+		display: inline-block;
+	}
+	
+	.login_panel_item{width:100%;padding:0;float:none;margin-top:10px}
+	.login_panel_item_button{text-align:center}
+	.login_panel_button_submit{padding:1.3em 60px;width:auto}
+	.login_panel_username,.login_panel_password{height:35px;line-height:35px}
+	.login_panel_item.first{margin-top:0}
+	.login_panel_item_button{margin-top:0}
+	.login_panel_extras_wrapper{margin-top:2em}
+	.login_panel_extras_wrapper .login_panel_item{float:left;width:auto;margin-top:0}
+	.login_panel_extras_wrapper .login_panel_item.first{float:right}
+	
+	.cat-item{
+		float: none;
+		width: 100%;
+	}
+	
+	.sidebar_widget_tools, .sidebar_widget_social{
+		float:none;
+		width:100%;
+		padding:0;
+	}
+	
+	.content_post_extralinks_item{
+		float:none;
+		width:100%;
+	}
+	
+	.content_post_extralinks_item h3{
+		margin-top:20px;
+	}
+	
+	.content_post_extralinks_item:first-child h3{
+		margin-top:0px;
+	}
+}
